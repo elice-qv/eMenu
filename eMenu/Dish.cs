@@ -12,9 +12,9 @@ namespace eMenu
 
         public int Cost { get; } // Food cost
 
-        public bool Stock { get; }
+        public bool Stock { get; } // Food in stock or not
 
-        public double Weight { get; }
+        public double Weight { get; } // Food weight, user can edit value
 
         public Dish(string name, int cost, bool stock, double weight)
         {

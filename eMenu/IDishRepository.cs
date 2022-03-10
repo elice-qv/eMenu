@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace eMenu
 {
-    interface IDishRepository
+    public interface IDishRepository
     {
-        Dish[] GetByName(string namePart);
+        Dish[] GetByname(string namePart); //method to return value in massive
     }
 }
